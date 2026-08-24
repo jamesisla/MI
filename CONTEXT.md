@@ -7,7 +7,7 @@
 ## 📌 1. Visión y Estado del Proyecto
 * **Proyecto:** **MInfra (CAD, Space Management & Facility Management Universitario)**
 * **Versión Actual:** `v4.3.0`
-* **Rama Principal:** `main` (Sincronizada con GitHub: `https://github.com/jamesisla/minfra-kiro.git`)
+* **Rama Principal:** `main` (Sincronizada con GitHub: `https://github.com/jamesisla/MI.git`)
 * **Entorno de Despliegue:** Instancia **Oracle Cloud Infrastructure (OCI) e3micro** (Ubuntu Minimal, 1 vCPU, 1 GB RAM + 2GB Swap).
 
 ---
@@ -15,7 +15,7 @@
 ## 🏗️ 2. Estructura del Monorepo
 
 ```
-minfra-kiro/
+MI/
 ├── apps/
 │   ├── web/                     # Frontend Next.js 14 (App Router, Tailwind, Zustand)
 │   │   ├── app/                 # Páginas (Login con 1-click demo, Dashboard, Visor CAD, Compliance)

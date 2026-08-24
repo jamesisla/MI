@@ -121,4 +121,4 @@ bash scripts/dev.sh
 - Branches: `main` → `develop` → `feature/*` | `fix/*` | `chore/*`
 - Capa backend: `routes → services → repositories → models`
 - Frontend: Server Components por defecto, Client solo cuando es necesario
-# minfra-kiro
+# MI

@@ -22,7 +22,7 @@ Este documento detalla el procedimiento para desplegar la aplicación **MInfra (
 
 ```bash
 cd /var/www
-git clone https://github.com/jamesisla/minfra-kiro.git sdd-project
+git clone https://github.com/jamesisla/MI.git sdd-project
 cd sdd-project
 git checkout v4.0.0
 ```
