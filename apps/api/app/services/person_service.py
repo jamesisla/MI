@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Servicio para gestión de Personas (Docentes, Administrativos, Estudiantes, Personal Externo).
 """

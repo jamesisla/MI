@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Repositorio genérico base con operaciones CRUD comunes.
 
