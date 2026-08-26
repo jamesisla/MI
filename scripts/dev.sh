@@ -1,6 +1,7 @@
 #!/bin/bash
 # Levanta todo el entorno de desarrollo: infra + backend + frontend.
 set -e
+export PATH="$HOME/.local/bin:$PATH"
 
 cd "$(dirname "$0")/.."
 ROOT_DIR=$(pwd)
