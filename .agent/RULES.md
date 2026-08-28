@@ -23,7 +23,15 @@
 
 ---
 
+## 🛡️ Barrera Arquitectónica de MInfra (Protección Estricta)
+* 🔒 **Stack Inmutable:** El stack oficial de MInfra es **Python 3.12+ FastAPI + PostgreSQL + Next.js 14**. Queda estrictamente prohibido cambiar el stack o sustituir componentes clave a menos que el usuario lo solicite de manera explícita y masiva desde `Projects`.
+* 🔒 **Motor CAD / DXF Blindado:** El pipeline de procesamiento de planos (`ezdxf`, algoritmos de ray-casting espacial, detección de capas, normalización de coordenadas y renderizado vectorial SVG) es crítico y estable. No debe ser modificado, refactorizado ni alterado durante tareas generales de workspace o ajustes transversales.
+
+---
+
 ## 🚫 Restricciones Obligatorias
+* ❌ **NO cambies el stack backend de MInfra:** Mantener siempre FastAPI + AsyncPG + Alembic.
+* ❌ **NO modifiques el motor de interpretación DXF:** Mantener el parser `ezdxf` y su lógica de coordenadas y capas.
 * ❌ **NO instales paquetes con npm/yarn:** Usar siempre `pnpm`.
 * ❌ **NO agregues dependencias innecesarias:** Mantener el bundle liviano para servidor OCI micro.
 * ❌ **NO alteres la jerarquía espacial:** Sede -> Edificio -> Piso -> Espacio.
@@ -33,3 +41,4 @@
 ## 🔄 Protocolo de Sesión
 1. **Al iniciar:** Leer `.agent/STATE.md`.
 2. **Al finalizar:** Actualizar `.agent/STATE.md` con las tareas realizadas y pendientes.
+
